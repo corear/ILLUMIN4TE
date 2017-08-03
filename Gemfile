@@ -7,8 +7,8 @@ gem 'rails', '4.2.5'
 
 # ----------------------------------- #
 # MUST USE 'pg' GEM FOR HEROKU, BUT 'sqlite3' FOR DEVELOPMENT
-gem 'sqlite3'
-# gem 'pg'
+#gem 'sqlite3'
+ gem 'pg'
 # ----------------------------------- #
 
 gem 'rails_12factor', group: :production
