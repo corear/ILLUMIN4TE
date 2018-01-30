@@ -1,6 +1,63 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {.navbar-collapse{
+  margin-top:20px;
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+.navbar-collapse{
+  margin-top:20px;
+}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+.navbar-collapse{
+  margin-top:20px;
+}
+}
+
 
 .navbar-brand img {
   height: 50px;
@@ -100,7 +157,7 @@
 
 
 body{
-  background-color:#f0f0f0
+  background-color:#f9f9f9
 }
 
 .navbar{
@@ -138,7 +195,7 @@ body{
     animation-fill-mode:forwards;
 }
 
-.btn-outline:hover{
+.col-md-6 > .btn-outline:hover{
     animation-name: outline_hover;
     animation-duration:0.2s;
     animation-fill-mode:forwards;
@@ -235,13 +292,44 @@ background:none;
     background-repeat: no-repeat;
     background-size:2000px auto;
     width:100%;
+    top:0;
+    position:relative;
+    z-index:100;
 }
 
+.top-img-about:before{
+  position:absolute;
+  content:"";
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  opacity: 0.35;
+  background-color:#3da5a5;
+}
+
+.turbolinks-progress-bar{
+    background:#59acc596;
+}
+
+
+
 .top-img{
-    background-image: url('/bg2.jpg');
+    background-image: url('/bg23.jpg');
     background-repeat: no-repeat;
     background-size:2000px auto;
     width:100%;
+}
+
+.top-img:before{
+  position:absolute;
+  content:"";
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  opacity: 0.35;
+  background-color:#3da5a5;
 }
 
 .raised{

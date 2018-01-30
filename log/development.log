@@ -9279,3 +9279,405 @@ Processing by PagesController#about as HTML
   Rendered layouts/_footer.html.erb (0.0ms)
   Rendered pages/about.html.erb within layouts/application (1.9ms)
 Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 10:45:17 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:15:39 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered pages/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 601ms (Views: 585.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 184.45.38.93 at 2018-01-30 18:15:40 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:16:58 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+  Rendered pages/about.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:17:41 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:30:45 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1916ms (Views: 1915.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-edcede0992444ff0bc5e82997c50fc58e72025f7bb84d27c5fd28bd0c6a8f78c.css?body=1" for 184.45.38.93 at 2018-01-30 18:30:48 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:31:39 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1898ms (Views: 1897.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9faabb7c4aaf3e69df9b20e624adb09c741383373708d33cf0790e3ae20c6315.css?body=1" for 184.45.38.93 at 2018-01-30 18:31:41 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:32:05 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1961ms (Views: 1960.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9de6934620c24c0c1cc5d9b6910deebc6b038eeacc65c04d849652f8ba51fe20.css?body=1" for 184.45.38.93 at 2018-01-30 18:32:08 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:33:27 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+  Rendered pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1681ms (Views: 1680.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-934139c6f12e07d9a0c52854e434500fdd022452dc60276d1189e43aed46305e.css?body=1" for 184.45.38.93 at 2018-01-30 18:33:29 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:33:53 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1996ms (Views: 1994.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-529205f29c15908d317092f755ed25768c444c84144fcc118de5fbbfeaca7e58.css?body=1" for 184.45.38.93 at 2018-01-30 18:33:55 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:35:15 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+  Rendered pages/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "  bottom": expected ";", was ":0;"):
+     5:   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+     6:   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+     7:   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     8:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: </head>
+  app/assets/stylesheets/application.scss:306
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2423326091515190487_30839340'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.1ms)
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:35:27 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 2376ms (Views: 2375.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0f6cd7c3a8e08093200fff10d3ef923534c67cdea58d155f6d982785f53aed65.css?body=1" for 184.45.38.93 at 2018-01-30 18:35:29 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:38:52 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1688ms (Views: 1687.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8436c00485229a30b7b352787f787fe320b32dd7f89313acdc3c01d0fb441e.css?body=1" for 184.45.38.93 at 2018-01-30 18:38:54 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:40:16 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1636ms (Views: 1635.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6b87d2b4cfbcceb48af2dabf191ebf3413e1b975cca8034312f840df13512be2.css?body=1" for 184.45.38.93 at 2018-01-30 18:40:18 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:40:37 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1782ms (Views: 1781.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2503b930a07293005c665aa86bfa1e4c0c54b73fe6417bc305d4896714012728.css?body=1" for 184.45.38.93 at 2018-01-30 18:40:39 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:41:30 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1693ms (Views: 1692.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4aaf9af7b48044243e0d739a5cb5d50dcb4ba1558cedbb2b5dacd413c332d45a.css?body=1" for 184.45.38.93 at 2018-01-30 18:41:32 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:42:55 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1679ms (Views: 1678.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-42e71c12fd121b9a8326df9ac54c53fed344815a95c3b4d75471b6291cfbc89e.css?body=1" for 184.45.38.93 at 2018-01-30 18:42:58 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:43:12 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:43:43 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1824ms (Views: 1822.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5e2260aa605def11e3764d39257709357e6373d061e6c3a588693e5c614e9e15.css?body=1" for 184.45.38.93 at 2018-01-30 18:43:46 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:44:08 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+  Rendered pages/about.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 2034ms (Views: 2033.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bd41d999c318528aed26b593b30b97ff430f44bf9397d0ac96c5bb3aa9466ad0.css?body=1" for 184.45.38.93 at 2018-01-30 18:44:11 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:44:21 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1712ms (Views: 1711.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f999f7a9f8ce315c371a94f6c418839c065d666acb7daf928bc68b142d69d8ce.css?body=1" for 184.45.38.93 at 2018-01-30 18:44:23 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:45:19 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1727ms (Views: 1726.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0a4ed3acc8e6848d060bed850f7df80f3db00fc3ffa872a3063c39715ea3db5b.css?body=1" for 184.45.38.93 at 2018-01-30 18:45:21 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:45:46 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:48:26 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 54ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:51:33 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:51:49 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:52:50 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 52ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:53:13 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1777ms (Views: 1776.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-86e9d832877da9e261447b1e6f81018ff3a5b8c6b22245638a2cc6d83604cee3.css?body=1" for 184.45.38.93 at 2018-01-30 18:53:15 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.45.38.93 at 2018-01-30 18:55:12 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1762ms (Views: 1761.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-61a4722aa51021a6dfd83ffee4276eec7161831ffe1008126517f7169569307c.css?body=1" for 184.45.38.93 at 2018-01-30 18:55:14 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:55:35 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:57:44 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+  Rendered pages/about.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1776ms (Views: 1775.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c3c5ef412d4912096e52d8d1632a3f445b189296e50b31811c9229c63fa5d81a.css?body=1" for 184.45.38.93 at 2018-01-30 18:57:46 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 18:59:50 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1842ms (Views: 1841.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-29585754f52439d407c382d62f6bede1e39721732d5a6e3cb344a1d373f659a3.css?body=1" for 184.45.38.93 at 2018-01-30 18:59:52 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 19:00:09 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1931ms (Views: 1930.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8aad39b25a27ab289a7dc5936b58d0f5a5115caab8d276e1c51a4305da2b3ce3.css?body=1" for 184.45.38.93 at 2018-01-30 19:00:11 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/about" for 184.45.38.93 at 2018-01-30 19:00:13 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered layouts/_nav.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+  Rendered pages/about.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8aad39b25a27ab289a7dc5936b58d0f5a5115caab8d276e1c51a4305da2b3ce3.css?body=1" for 184.45.38.93 at 2018-01-30 19:00:14 +0000
+Cannot render console from 184.45.38.93! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
