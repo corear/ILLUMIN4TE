@@ -7,6 +7,8 @@
         </div>
 </div>
 
+<% if params[:id] == "timeless" %>
+
 <div class="container" style="position:relative;z-index:101;margin-top:130px">
     
     
@@ -20,13 +22,25 @@
     </div>
     
     <div class="base-div" style="margin-top:20px;">
-<center style="margin-top:10px;"><a href="/<%= params[:id] %>.zip" style="transform:all 0.2s ease;font-size:1.5em;font-weight:300;padding: 5px;padding-left:20px;padding-right:20px;background: none;border-radius: 30px;margin-bottom:50px;border: 1px solid #8cc3d4;color: #8cc3d4;">Download <i class="fas fa-arrow-down"></i></a><a href="https://illumin4te-timeless.herokuapp.com/" style="transform:all 0.2s ease;font-size:1.5em;font-weight:300;padding: 5px;padding-left:20px;padding-right:20px;background: none;border-radius: 30px;margin-bottom:50px;border: 1px solid #8cc3d4;color: #8cc3d4;">Preview <i class="fas fa-search"></i></a></center>
+<center style="margin-top:10px;"><a href="/<%= params[:id] %>.zip" style="transform:all 0.2s ease;font-size:1.5em;font-weight:300;padding: 5px;padding-left:20px;padding-right:20px;background: none;border-radius: 30px;margin-bottom:50px;border: 1px solid #8cc3d4;color: #8cc3d4;">Download <i class="fas fa-arrow-down"></i></a><a href="https://illumin4te-<%= params[:id] %>.herokuapp.com/" style="transform:all 0.2s ease;font-size:1.5em;font-weight:300;padding: 5px;padding-left:20px;padding-right:20px;background: none;border-radius: 30px;margin-bottom:50px;border: 1px solid #8cc3d4;color: #8cc3d4;">Preview <i class="fas fa-search"></i></a></center>
     
     <br>
     <center><h3 style="line-height:40px;font-weight:200">To use this UI Kit with Bootstrap 3 & 4, download and unzip the file. In the resulting folder, copy the code from <code>/ILLUMIN4TE-<%= params[:id] %>.js</code> and <code>/ILLUMIN4TE-<%= params[:id] %>.scss</code> into your application's main <code>JavaScript</code> and <code>CSS</code> files. An example <code>HTML</code> file has been provided for reference.</h3></center>
     <center><h3 style="line-height:20px;font-size:1.5rem;margin-top:30px;">If you have any questions about this UI Kit, or encounter any problems, please <a href="mailto:illumin4te@icloud.com?subject=[<%= params[:id].capitalize %>%20UI%20Kit]%20Your%20Subject%20Here">email us</a> directly. Thank you for using an exclusive ILLUMIN4TE UI Kit.</h3></center>
     </div>
 </div>
+
+<% else %>
+
+<div class="container" style="position:relative;z-index:101;margin-top:130px">
+    
+    <div class="base-div" style="margin-top:20px;">
+    <br>
+    <center><h3 style="line-height:40px;font-weight:200">A UI Kit by this name does not exist!.</h3></center>
+    </div>
+</div>
+
+<% end %>
 
 <%= render '/layouts/footer' %>
 
