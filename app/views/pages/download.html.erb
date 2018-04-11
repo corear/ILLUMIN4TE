@@ -1,1 +1,36 @@
-<h1>Download: <%= params[:id] %></h1>
+<%= render '/layouts/nav' %>
+
+<div style="text-align: center" class="top-img-download jumbotron">
+        <div style="margin-top:150px;margin-bottom:150px;">
+                    <center style="margin-top:80px;"><h style="transition:all 0.2s ease; font-size: 3em;font-weight:300;padding: 20px;padding-left: 60px;padding-right: 60px;background-color: #ffffff;border-radius: 90px;color: #4c4c4c;opacity: 1;" class="raised"><%= params[:id].capitalize %></h>
+        </center><img src="/ILLUMIN4TE_512_White.png" style="max-width:380px;position:relative;z-index:101;float:top;margin-top:10px;"><br>
+        </div>
+</div>
+
+<div class="container" style="position:relative;z-index:101;margin-top:130px">
+    
+    
+    <center>
+        <img class="raised rounded" src="/IMG_4098.JPG" style="width:300px;height:300px;margin-top:-270px;position:relative;z-index:101;">
+    </center>
+
+    <div class="base-div" style="margin-top:-100px;background:none">
+        <center style="margin-top:110px;"><h style="font-size:2em;font-weight:300;padding: 5px;padding-left:20px;padding-right:20px;background-color: #59acc596;border-radius: 30px;margin-bottom:50px;color: white;">Collin O'Rear</h>
+        <p style="margin-top:30px;font-weight:400;">Creator</p>
+    </div>
+    
+    <div class="base-div" style="margin-top:20px;">
+<center style="margin-top:10px;"><a href="/<%= params[:id] %>.zip" style="transform:all 0.2s ease;font-size:1.5em;font-weight:300;padding: 5px;padding-left:20px;padding-right:20px;background: none;border-radius: 30px;margin-bottom:50px;border: 1px solid #8cc3d4;color: #8cc3d4;">Download <i class="fas fa-arrow-down"></i></a><a href="https://illumin4te-timeless.herokuapp.com/" style="transform:all 0.2s ease;font-size:1.5em;font-weight:300;padding: 5px;padding-left:20px;padding-right:20px;background: none;border-radius: 30px;margin-bottom:50px;border: 1px solid #8cc3d4;color: #8cc3d4;">Preview <i class="fas fa-search"></i></a></center>
+    
+    <br>
+    <center><h3 style="line-height:40px;font-weight:200">To use this UI Kit with Bootstrap 3 & 4, download and unzip the file. In the resulting folder, copy the code from <code>/ILLUMIN4TE-<%= params[:id] %>.js</code> and <code>/ILLUMIN4TE-<%= params[:id] %>.scss</code> into your application's main <code>JavaScript</code> and <code>CSS</code> files. An example <code>HTML</code> file has been provided for reference.</h3></center>
+    <center><h3 style="line-height:20px;font-size:1.5rem;margin-top:30px;">If you have any questions about this UI Kit, or encounter any problems, please <a href="mailto:illumin4te@icloud.com?subject=[<%= params[:id].capitalize %>%20UI%20Kit]%20Your%20Subject%20Here">email us</a> directly. Thank you for using an exclusive ILLUMIN4TE UI Kit.</h3></center>
+    </div>
+</div>
+
+<%= render '/layouts/footer' %>
+
+<script>
+var title = "<%= params[:id] %>".charAt(0).toUpperCase() + "<%= params[:id] %>".substr(1)
+    document.title = "Download " + title + " UI Kit | ILLUMIN4TE"
+</script>
